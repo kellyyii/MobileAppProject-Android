@@ -1,0 +1,61 @@
+<resources>
+    <string name="name">name</string>
+    <string name="username">username</string>
+    <string name="profile">Profile</string>
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <string name="Username">Username</string>
+    <string name="password">password</string>
+    <string name="Password">Password</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="Settings">Settings</string>
+    <string name="Visibility">Visibility</string>
+    <string name="DarkMode">Dark Mode</string>
+    <string name="sflmidm">Switch from Light Mode into Dark Mode</string>
+    <string name="LanguageSettings">Language Settings</string>
+    <string name="slbcae">Switch Language between Chinese and English</string>
+    <string name="LOGOUT">LOG OUT</string>
+    <string name="BEFOREYOUSTART">BEFORE YOU START:</string>
+    <string name="dw">DURING WALKING: </string>
+    <string name="AFTERWALKING">AFTER WALKING</string>
+    <string name="SCHEDULING">SCHEDULING:</string>
+    //Important
+    <string name="app_name">HKWT</string>
+    <string name="language">en</string>
+    <string name="setLang">Switch Language</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    //bmi
+    <string name="age">Age :</string>
+    <string name="height">Height(cm) :</string>
+    <string name="weight">Weight (kg) :</string>
+    <string name="bmi">BMI :</string>
+    <string name="enterage">Please enter your age here</string>
+    <string name="enterweight">Please enter your weight here </string>
+    <string name="submit">submit</string>
+    //display
+    <string name="title">Title:</string>
+    <string name="district">District:</string>
+    <string name="route">Route</string>
+    <string name="access">How to access</string>
+    <string name="map">Map</string>
+    //inner
+    <string name="inputsearch">Input to search</string>
+    //activity_login
+    <string name="login">Login</string>
+    <string name="sig_mess">Not yet registered? Sign Up</string>
+    //activity_logout
+    <string name="logout_mess">Sure Logging Out?</string>
+    <string name="logout">Log Out</string>
+    //home
+    <string name="reset">Reset</string>
+    <string name="eddi">Edit Profile</string>
+    <string name="save">SAVE</string>
+    <string name="introduction">Introduction</string>
+    <string name="hkft">WALKING TRACK</string>
+    <string name="bmi_title">BMI</string>
+    //signup
+    <string name="signup">Sign Up</string>
+    <string name="signup_mess">Already an user? Login</string>
+    <string name="Home">home</string>
+</resources>

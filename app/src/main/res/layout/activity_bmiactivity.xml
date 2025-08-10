@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green_AB"
+    tools:context=".BMIActivity">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp">
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp">
+
+                        <TextView
+                            android:id="@+id/tv_age"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/age"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:translationZ="2dp" />
+
+                        <EditText
+                            android:id="@+id/age_input"
+                            android:layout_width="245dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="12dp"
+                            android:ems="10"
+                            android:hint="@string/enterage"
+                            android:inputType="number"
+                            android:translationZ="2dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp">
+
+                        <TextView
+                            android:id="@+id/tv_height"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/height"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:translationZ="2dp" />
+
+                        <EditText
+                            android:id="@+id/height_input"
+                            android:layout_width="250dp"
+                            android:layout_height="48dp"
+                            android:layout_marginStart="12dp"
+                            android:ems="10"
+                            android:hint="@string/enterheight"
+                            android:inputType="number"
+                            android:translationZ="2dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp">
+
+                        <TextView
+                            android:id="@+id/tv_weight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Weight (kg) :"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:translationZ="2dp" />
+
+                        <EditText
+                            android:id="@+id/weight_input"
+                            android:layout_width="254dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="4dp"
+                            android:ems="10"
+                            android:hint="@string/enterweight"
+                            android:inputType="number"
+                            android:translationZ="2dp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp">
+
+                        <TextView
+                            android:id="@+id/tv_bmi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/bmi"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:translationZ="2dp" />
+
+                        <TextView
+                            android:id="@+id/cal_bmi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:text="0.0"
+                            android:textColor="#03A9F4"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:translationZ="2dp" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp">
+
+                        <Button
+                            android:id="@+id/btn_submit"
+                            android:layout_width="141dp"
+                            android:layout_height="59dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="20dp"
+                            android:backgroundTint="#000000"
+                            android:text="@string/submit" />
+
+                </TableRow>
+        </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
